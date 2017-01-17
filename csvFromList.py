@@ -23,6 +23,6 @@ records = [('column1','column2','column3','colum4'),
          ('     _a','     ','null','NULL'),
          (1234567,'5565.234','..67837','abce123')]
 
-writeToCSV('/home/hanshika/Desktop/aaaaaaa.csv',records)
-readFromCSV('/home/hanshika/Desktop/aaaaaaa.csv')
+writeToCSV('newCSVFile.csv',records)
+readFromCSV('newCSVFile.csv')
 
